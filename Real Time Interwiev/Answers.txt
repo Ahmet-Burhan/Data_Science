@@ -1,0 +1,7 @@
+4.soru df_m = pd.merge(df, df1, left_on=[df.date,df.currency], right_on=[df1.date,df1.currency])
+f"{sum(df_m.price / df_m.rate):,.2f} EUR"
+
+
+df sales dosyasi df1 de currency dosyasi
+
+6.soru df[(df['category']=="Jewellery") & (df['brand'].isnull())]['product_code'].nunique()
