@@ -1,0 +1,3 @@
+SELECT *
+FROM covid_19_activity
+LIMIT 20000;
